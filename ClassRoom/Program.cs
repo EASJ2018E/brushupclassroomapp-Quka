@@ -18,8 +18,9 @@ namespace ClassRoom
 	        {
 		        new Studerende("Arlind", 4, 24),
 		        new Studerende("Benjamin", 6, 18),
-		        new Studerende("Zaki", 6, 6)
-	        };
+		        new Studerende("Zaki", 6, 6),
+		        new Studerende("Zaki2", 13, 6)
+			};
 
 			// Write to console
 			Console.WriteLine("Klassenavn: " + klasse.KlasseNavn);
