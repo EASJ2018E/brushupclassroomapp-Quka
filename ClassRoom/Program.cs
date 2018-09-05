@@ -27,6 +27,7 @@ namespace ClassRoom
 	        foreach (Studerende s in klasse.Klasseliste)
 	        {
 		        Console.WriteLine(s);
+				Console.WriteLine(s.Navn + " har fødseldag til " + s.Årstid() + "\n\r");
 	        }
 			
 			Console.WriteLine("\n\rPress any key to end program");
