@@ -29,6 +29,8 @@ namespace ClassRoom
 		        Console.WriteLine(s);
 				Console.WriteLine(s.Navn + " har fødseldag til " + s.Årstid() + "\n\r");
 	        }
+
+			klasse.countStudentsEfterÅrstider();
 			
 			Console.WriteLine("\n\rPress any key to end program");
 	        Console.ReadKey();

@@ -16,5 +16,18 @@ namespace ClassRoom
 		{
 			
 		}
+
+		public void countStudentsEfterÅrstider()
+		{
+			List<int> countStudents = new List<int>();
+
+			var queryStudents = from elev in Klasseliste
+								group elev by elev.Årstid();
+			
+			foreach (var årstid in queryStudents)
+			{
+				Console.WriteLine("Antal der har fødselsdag til " + årstid.Key + ": " + årstid.Count());
+			}
+		}
 	}
 }
